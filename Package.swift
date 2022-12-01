@@ -4,24 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "Bimapping",
-    platforms: [.macOS(.v10_15), .iOS(.v14)],
-    products: [
-        .library(
-            name: "Bimapping",
-            targets: ["Bimapping"]
-        ),
-    ],
-    dependencies: [
-    ],
-    targets: [
-        .target(
-            name: "Bimapping",
-            dependencies: []
-        ),
-        .testTarget(
-            name: "BimappingTests",
-            dependencies: ["Bimapping"]
-        ),
-    ]
+  name: "Bimapping",
+  platforms: [.macOS(.v10_15), .iOS(.v14)],
+  products: [
+    .library(
+      name: "Bimapping",
+      targets: ["Bimapping"]
+    )
+  ],
+  dependencies: [],
+  targets: [
+    .target(
+      name: "Bimapping",
+      dependencies: []
+    ),
+    .testTarget(
+      name: "BimappingTests",
+      dependencies: ["Bimapping"]
+    ),
+  ]
 )
