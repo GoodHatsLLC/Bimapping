@@ -1,14 +1,8 @@
-# Bimapping
+# ↔️ Bimapping
 
-`Bimapping` is a Swift DSL (result builder) for defining bidirectional model transformations.
-
-`Bimapping` is a core component of the [Projection](https://github.com/GoodHatsLLC/Projection)
-bidirectional mapping library.  
-`Projection` is a more flexible version of SwiftUI's `Binding`. It allows expressing more complex model relationships.
+`Bimapping` is a Swift DSL used for defining bidirectional model transformations.
 
 ## Example
-
-`Bimapping` can be used independent of the `Projection` library to make `Bimapper` transformers.
 
 ```swift
 import Bimapping
